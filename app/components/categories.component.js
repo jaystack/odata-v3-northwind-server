@@ -59,6 +59,7 @@ var CategoriesComponent = (function () {
                         }, function () {
                             products.forEach(function (product) {
                                 product.Sync = now;
+                                product.Category = category;
                                 _this.context.Products.add(product);
                             });
                             _this.context.Categories.add(category);
