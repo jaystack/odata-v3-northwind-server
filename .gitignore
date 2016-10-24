@@ -1,0 +1,5 @@
+node_modules
+npm-debug.log
+Bin
+obj
+App_Data/northwind.sdf
